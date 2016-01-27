@@ -13,7 +13,13 @@
 	    
 			    android:layout_width="fill_parent" 
 			    android:layout_height="50dp" >
-
+	<Button
+		    android:id="@+id/My_btn2"
+		    android:layout_width="120dp"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:layout_alignParentLeft="true"
+		    android:text="save" />
 		<Button
 		    android:id="@+id/My_btn1"
 		    android:layout_width="120dp"

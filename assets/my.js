@@ -32,7 +32,7 @@ var getKeys=function(obj){
         keys.push(key);
     }
     return keys;
-    };
+ };  
 var getData=function(){
     var all = [];
     var x=document.getElementsByTagName("p");
@@ -53,4 +53,8 @@ var getData=function(){
         arrAll.push(all[keys[i]]);
     }
     return arrAll.join(":::");
+};
+var AllKeys=function(obj){
+	var keys = [getData()];
+	 return keys;
 };
